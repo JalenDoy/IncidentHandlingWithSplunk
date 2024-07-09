@@ -43,3 +43,21 @@ During our investigation, we will be using Splunk as our SIEM solution. Logs are
 <br/>
 <img src="https://i.imgur.com/pa6PhFS.png"/>
 
+<h2>Task 4: Reconnaissance Phase </h2>
+
+
+<p align="center">
+Splunk Instance with the logs needed to complete the task<br/>
+<img src="https://i.imgur.com/rsFcdvk.png"/>
+
+
+**Question 1: One suricata alert highlighted the CVE value associated with the attack attempt. What is the CVE value?** CVE-2014-6271
+
+**Hint:** alert.signature = ET WEB_SERVER Possible CVE-2014-6271 Attempt in Headers 
+
+**Question 2: What is the CMS our web server is using?** Joomla
+
+**Question 3: What is the web scanner, the attacker used to perform the scanning attempts?** Acunetix
+
+**Question 4: What is the IP address of the server imreallynotbatman.com?** 192.168.250.70
+
