@@ -61,3 +61,25 @@ Splunk Instance with the logs needed to complete the task<br/>
 
 **Question 4: What is the IP address of the server imreallynotbatman.com?** 192.168.250.70
 
+<h2>Task 5: Exploitation Phase</h2>
+
+The attacker needs to exploit the vulnerability to gain access to the system/server.
+
+In this task, we will look at the potential exploitation attempt from the attacker against our web server and see if the attacker got successful in exploiting or not.
+
+To begin our investigation, let's note the information we have so far:
+
+ - We found two IP addresses from the reconnaissance phase with sending requests to our server.
+ - One of the IPs 40.80.148.42 was seen attempting to scan the server with IP 192.168.250.70.
+ - The attacker was using the web scanner Acunetix for the scanning attempt.
+
+
+**Question 1: What was the URI which got multiple brute force attempts?** /joomla/administrator/index.php
+**Question 2: Against which username was the brute force attempt made?** Admin
+**Question 3: What was the correct password for admin access to the content management system running imreallynotbatman.com?** CVE-2014-6271
+**Question 4: How many unique passwords were attempted in the brute force attempt?** CVE-2014-6271
+**Question 5: What IP address is likely attempting a brute force password attack against imreallynotbatman.com?** CVE-2014-6271
+**Question 6: After finding the correct password, which IP did the attacker use to log in to the admin panel?** CVE-2014-6271
+
+
+
